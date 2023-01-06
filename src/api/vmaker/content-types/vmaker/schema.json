@@ -1,0 +1,79 @@
+{
+  "kind": "collectionType",
+  "collectionName": "vmakers",
+  "info": {
+    "singularName": "vmaker",
+    "pluralName": "vmakers",
+    "displayName": "Vmaker",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "meta_desc": {
+      "type": "string"
+    },
+    "h1": {
+      "type": "string"
+    },
+    "byline": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "banner_button": {
+      "type": "string"
+    },
+    "banner_quote": {
+      "type": "string"
+    },
+    "video_heading": {
+      "type": "string"
+    },
+    "iframe_video_url": {
+      "type": "string"
+    },
+    "Cta_heading": {
+      "type": "string"
+    },
+    "Cta_quote": {
+      "type": "string"
+    },
+    "Cta_button_text": {
+      "type": "string"
+    },
+    "Cta_url": {
+      "type": "string"
+    },
+    "og_imgage": {
+      "type": "string"
+    },
+    "steps": {
+      "type": "string"
+    },
+    "schema": {
+      "type": "string"
+    },
+    "feature": {
+      "type": "string"
+    },
+    "article": {
+      "type": "string"
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "faq.faq"
+    },
+    "faqData": {
+      "type": "json"
+    }
+  }
+}

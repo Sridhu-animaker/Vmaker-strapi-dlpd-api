@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_faq_faq1s",
+  "info": {
+    "displayName": "faq1"
+  },
+  "options": {},
+  "attributes": {
+    "test1": {
+      "type": "string"
+    },
+    "test2": {
+      "type": "string"
+    }
+  }
+}
